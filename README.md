@@ -7,6 +7,13 @@ Using a minimalistic CLI interface with a C# backend, this program converts a .v
 
 *Percompiled Binaries can be found in the /bin/ folder.*
 
+##Installation
+1. Download the project
+2. Open the .sln file
+3. Fix any broken dependencies between your computer and mine *(usually just wrong paths)*
+4. Build the project
+5. Run the build executable
+
 ## Use
 ```"VTT to SRT Subtitle Converter.exe" "FILE TO EDIT.vtt" [optional]: "SECOND FILE.vtt" "THIRD FILE.vtt" (etc)```
 
