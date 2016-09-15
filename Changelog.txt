@@ -1,2 +1,19 @@
+[Legend:
+	! = Important modification, addition or subtraction to the underlining code of the program.
+	* = Moderately important modification, addition or subtraction to the code; important to moderately important modification, addition or subtraction to any other element of the program.
+	- = Unimportant modification, addition or subtraction to the program at large.]
+
+Version 0.1.5:
+! Significantly improved the "SRT.Convert" function to read and then immediately write the changes directly to the .srt file ((Read)Modify While Reading->Write Modified Content to File), instead of the old paradigm ((Read)Store in Memory->Modify Stored Content->Write Modified Content to File).
+* Various minor code structure tweaks and function additions.
+* Added a "Commands" subsection to the "Use" section of the readme and help command.
+- Various code comment tweaks/additions. Added clarification to the "Reformat" function explaining why the return value is calculated so oddly as compared to other methods I could have used.
+- Program's "internal" version number added to the help command's contents if in debugging mode.
+- Program's disclaimer content modified.
+- Changed the "Use" section of the readme moderately.
+- Changed the "Help" section of the program moderately.
+- Added a legend to this changelog.
+
+
 Version 0.1:
-Project released to public.
+!* Project released to public.

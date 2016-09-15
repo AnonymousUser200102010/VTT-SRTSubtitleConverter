@@ -1,11 +1,11 @@
 # VTT to SRT Subtitle Converter
 ## Converts .vtt subtitle files into .srt subtitle files.
-Using a minimalistic CLI interface with a C# backend, this program converts a .vtt subtitle file into a compatible .srt subtitle file, complete with compatible .srt formatting syntax!
+Using a minimalistic command-line interface with a C# backend, this program converts a .vtt subtitle file into a compatible .srt subtitle file, complete with compatible .srt formatting syntax!
 
 ## Known Compatibility
 - Windows 7
 
-*Percompiled Binaries can be found in the /bin/ folder.*
+*Precompiled Binaries can be found in the /bin/ folder.*
 
 ##Installation
 1. Download the project
@@ -15,7 +15,15 @@ Using a minimalistic CLI interface with a C# backend, this program converts a .v
 5. Run the build executable
 
 ## Use
-```"VTT to SRT Subtitle Converter.exe" "FILE TO EDIT.vtt" [optional]: "SECOND FILE.vtt" "THIRD FILE.vtt" (etc)```
+```"VTT to SRT Subtitle Converter.exe" [COMMAND]```
+
+```
+Commands:
+"FILE TO CONVERT.vtt" [optional: "SECOND FILE.vtt" "THIRD FILE.vtt" (etc)]
+-h (or --help)
+```
+
+*The help command must come first if it is to be used. Using the help command will forbid you from using any other commands for the duration of that particular instance of the program.*
 
 ##Troubleshooting
 - Using lowercase extensions for the input file (.vtt) may be required for the program to work properly.

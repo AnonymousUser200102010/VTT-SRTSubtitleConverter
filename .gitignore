@@ -1,0 +1,4 @@
+*.bat
+VTT to SRT Subtitle Converter/bin/Debug/*
+VTT to SRT Subtitle Converter/bin/Release/*.config
+VTT to SRT Subtitle Converter/obj/*
