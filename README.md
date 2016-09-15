@@ -14,13 +14,6 @@ Using a minimalistic command-line interface with a C# backend, this program conv
 4. Build the project
 5. Run the build executable
 
-##Installation
-1. Download the project
-2. Open the .sln file
-3. Fix any broken dependencies between your computer and mine *(usually just wrong paths)*
-4. Build the project
-5. Run the build executable
-
 ## Use
 ```"VTT to SRT Subtitle Converter.exe" [COMMAND]```
 
